@@ -10,7 +10,7 @@ id = "Id User"
 # <---------> - = - = - <--------->
 @client.event
 async def on_ready():
-    print("Embed Macro ON")
+    print("Macro ON")
     print("Servers: {}".format(str(len(client.servers))))
     print("Ok! Successfully logged.")
 
